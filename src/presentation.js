@@ -41,6 +41,7 @@ export default class Presentation extends React.Component {
         transitionDuration={500}
         theme={theme}
       >
+
         <Slide transition={['zoom']} bgColor="primary">
           <Heading size={1} fit caps lineHeight={1} textColor="secondary">
             Spectacle Boilerplate
@@ -49,6 +50,7 @@ export default class Presentation extends React.Component {
             open the presentation/index.js file to get started
           </Text>
         </Slide>
+
         <Slide transition={['fade']} bgColor="tertiary">
           <Heading size={6} textColor="primary" caps>
             Typography
